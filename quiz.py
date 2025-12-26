@@ -35,6 +35,8 @@ def take_quiz():
         else :
             print(f"wrong answer , correct answer is {q['answer']}")    
 
+    print(f"your score is {score}/{len(qustions)}")        
+
 
 
 def add_question():
